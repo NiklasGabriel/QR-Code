@@ -1,7 +1,7 @@
 # QR Code Extension
 
 <div align="center"">
-<img src="https://github.com/NiklasGabriel/QR-Code/blob/main/QR%20Code/Resources/Icon.png" style="float: right;" width="250" alt="QR Code Extension Logo">
+<img src="https://github.com/NiklasGabriel/QR-Code/blob/main/QR%20Code/Resources/Icon.png" style="float: right;" width="200" alt="QR Code Extension Logo">
 </div>
 
 ## General
@@ -10,7 +10,7 @@ Safari Web Extension for QR Code generation.
 - A Safari App Extension, for generation QR Codes for Websites, Texts and WiFi
 
 ## Download
-For macOS (10.14+): [Download (DMG)](https://github.com/NiklasGabriel/QR-Code/releases/latest/download/QR.Code.app.zip)
+For macOS (10.14+): [Download (ZIP)](https://github.com/NiklasGabriel/QR-Code/releases/latest/download/QR.Code.app.zip)
 
 
 ## Instalation
