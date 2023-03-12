@@ -89,10 +89,6 @@ document.getElementById("m3").addEventListener("click", () => { changeMenu("m3")
 document.getElementById("m4").addEventListener("click", () => { changeMenu("m4") });
 
 // Key
-/*
-document.addEventListener("keyup", function(event){
-    alert(event.keyCode);
-});*/
 window.onkeyup = function(event) {
     let key = event.key.toUpperCase();
     if ( key == 'ENTER' ) {
