@@ -1,7 +1,8 @@
 # QR Code Extension
 
 <div align="center"">
-<img src="https://github.com/NiklasGabriel/QR-Code/blob/main/QR%20Code/Resources/Icon.png" style="float: right;" width="200" alt="QR Code Extension Logo">
+<img src="https://github.com/NiklasGabriel/QR-Code/blob/9e6d28ba9c0bfb87aceb6bb48e94b47f9b0db949/Icon.png" height="350" alt="QR Code Extension Logo">
+<!--<img src="https://github.com/NiklasGabriel/QR-Code/blob/9e6d28ba9c0bfb87aceb6bb48e94b47f9b0db949/Cover.png" height="400" alt="QR Code Extension Cover">-->
 </div>
 
 ## General
