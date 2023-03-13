@@ -16,7 +16,7 @@ For macOS (10.14+): [Download (ZIP)](https://github.com/NiklasGabriel/QR-Code/re
 
 ## Instalation
 - Unzip the downladed file
-- Open application
+- Right click and click `open`
 - Klick `Quit and Open Safari Setting...`
 - Check if the checkbox in front of the QR code extension is activated
 - Have fun with generating QR Codes
