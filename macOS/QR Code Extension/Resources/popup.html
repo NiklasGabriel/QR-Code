@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="Created by Niklas Gabriel on 09.03.23.">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <table>
+            <td id="m1" class="menuItem">Diese URL</td>
+            <td id="m2" class="menuItem">URL</td>
+            <td id="m3" class="menuItem">Text</td>
+            <td id="m4" class="menuItem">WLAN</td>
+        </table>
+    </div>
+    <div id="content">
+        <div id="a_m1">
+            <p class="header"><strong>Diese Seite</strong></p>
+        </div>
+        <div id="a_m2">
+            <p class="header"><strong>Webseite</strong></p>
+            <input id="a_m2_in" type="url" placeholder="https://www.example.com">
+            <button id="a_m2_btn">erstellen</button>
+        </div>
+        <div id="a_m3">
+            <p class="header"><strong>Text</strong></p>
+            <input id="a_m3_in" type="text" placeholder="Eine Nachricht">
+            <button id="a_m3_btn">erstellen</button>
+        </div>
+        <div id="a_m4">
+            <p class="header"><strong>WLAN</strong></p>
+            <input id="a_m4_ssid" type="text" placeholder="SSID">
+            <input id="a_m4_pw" type="password" placeholder="Passwort">
+            <button id="a_m4_btn">erstellen</button>
+        </div>
+        <img id="qrcode" src=" " alt="QR Code">
+    </div>
+</body>
+</html>
+
+
