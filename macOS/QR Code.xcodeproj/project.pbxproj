@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85E7784A29BA2DDA007FB7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7784929BA2DDA007FB7ED /* AppDelegate.swift */; };
+		85E7784E29BA2DDA007FB7ED /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 85E7784C29BA2DDA007FB7ED /* Main.html */; };
+		85E7785029BA2DDA007FB7ED /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E7784F29BA2DDA007FB7ED /* Icon.png */; };
+		85E7785229BA2DDA007FB7ED /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 85E7785129BA2DDA007FB7ED /* Style.css */; };
+		85E7785429BA2DDA007FB7ED /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 85E7785329BA2DDA007FB7ED /* Script.js */; };
+		85E7785629BA2DDA007FB7ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7785529BA2DDA007FB7ED /* ViewController.swift */; };
+		85E7785929BA2DDA007FB7ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E7785729BA2DDA007FB7ED /* Main.storyboard */; };
+		85E7785B29BA2DDB007FB7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E7785A29BA2DDB007FB7ED /* Assets.xcassets */; };
+		85E7786329BA2DDB007FB7ED /* QR Code Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 85E7786229BA2DDB007FB7ED /* QR Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85E7786829BA2DDB007FB7ED /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E7786729BA2DDB007FB7ED /* SafariWebExtensionHandler.swift */; };
+		85E7786B29BA2DDB007FB7ED /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 85E7786A29BA2DDB007FB7ED /* _locales */; };
+		85E7786D29BA2DDB007FB7ED /* images in Resources */ = {isa = PBXBuildFile; fileRef = 85E7786C29BA2DDB007FB7ED /* images */; };
+		85E7786F29BA2DDB007FB7ED /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 85E7786E29BA2DDB007FB7ED /* manifest.json */; };
+		85E7787129BA2DDB007FB7ED /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 85E7787029BA2DDB007FB7ED /* background.js */; };
+		85E7787329BA2DDB007FB7ED /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 85E7787229BA2DDB007FB7ED /* content.js */; };
+		85E7787529BA2DDB007FB7ED /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 85E7787429BA2DDB007FB7ED /* popup.html */; };
+		85E7787729BA2DDB007FB7ED /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 85E7787629BA2DDB007FB7ED /* popup.css */; };
+		85E7787929BA2DDB007FB7ED /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 85E7787829BA2DDB007FB7ED /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85E7786429BA2DDB007FB7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85E7783E29BA2DDA007FB7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85E7786129BA2DDB007FB7ED;
+			remoteInfo = "QR Code Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85E7788129BA2DDB007FB7ED /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85E7786329BA2DDB007FB7ED /* QR Code Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		85E7784629BA2DDA007FB7ED /* QR Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E7784929BA2DDA007FB7ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85E7784D29BA2DDA007FB7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		85E7784F29BA2DDA007FB7ED /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		85E7785129BA2DDA007FB7ED /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		85E7785329BA2DDA007FB7ED /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		85E7785529BA2DDA007FB7ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85E7785829BA2DDA007FB7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85E7785A29BA2DDB007FB7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85E7785C29BA2DDB007FB7ED /* QR_Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QR_Code.entitlements; sourceTree = "<group>"; };
+		85E7785D29BA2DDB007FB7ED /* QR Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "QR Code.entitlements"; sourceTree = "<group>"; };
+		85E7786229BA2DDB007FB7ED /* QR Code Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QR Code Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E7786729BA2DDB007FB7ED /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		85E7786A29BA2DDB007FB7ED /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		85E7786C29BA2DDB007FB7ED /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		85E7786E29BA2DDB007FB7ED /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		85E7787029BA2DDB007FB7ED /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		85E7787229BA2DDB007FB7ED /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		85E7787429BA2DDB007FB7ED /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		85E7787629BA2DDB007FB7ED /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		85E7787829BA2DDB007FB7ED /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		85E7787A29BA2DDB007FB7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E7787B29BA2DDB007FB7ED /* QR_Code_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QR_Code_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E7784329BA2DDA007FB7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E7785F29BA2DDB007FB7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85E7783D29BA2DDA007FB7ED = {
+			isa = PBXGroup;
+			children = (
+				85E7784829BA2DDA007FB7ED /* QR Code */,
+				85E7786629BA2DDB007FB7ED /* QR Code Extension */,
+				85E7784729BA2DDA007FB7ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85E7784729BA2DDA007FB7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85E7784629BA2DDA007FB7ED /* QR Code.app */,
+				85E7786229BA2DDB007FB7ED /* QR Code Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85E7784829BA2DDA007FB7ED /* QR Code */ = {
+			isa = PBXGroup;
+			children = (
+				85E7784929BA2DDA007FB7ED /* AppDelegate.swift */,
+				85E7785529BA2DDA007FB7ED /* ViewController.swift */,
+				85E7785729BA2DDA007FB7ED /* Main.storyboard */,
+				85E7785A29BA2DDB007FB7ED /* Assets.xcassets */,
+				85E7785C29BA2DDB007FB7ED /* QR_Code.entitlements */,
+				85E7785D29BA2DDB007FB7ED /* QR Code.entitlements */,
+				85E7784B29BA2DDA007FB7ED /* Resources */,
+			);
+			path = "QR Code";
+			sourceTree = "<group>";
+		};
+		85E7784B29BA2DDA007FB7ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85E7784C29BA2DDA007FB7ED /* Main.html */,
+				85E7784F29BA2DDA007FB7ED /* Icon.png */,
+				85E7785129BA2DDA007FB7ED /* Style.css */,
+				85E7785329BA2DDA007FB7ED /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85E7786629BA2DDB007FB7ED /* QR Code Extension */ = {
+			isa = PBXGroup;
+			children = (
+				85E7786729BA2DDB007FB7ED /* SafariWebExtensionHandler.swift */,
+				85E7787A29BA2DDB007FB7ED /* Info.plist */,
+				85E7787B29BA2DDB007FB7ED /* QR_Code_Extension.entitlements */,
+				85E7786929BA2DDB007FB7ED /* Resources */,
+			);
+			path = "QR Code Extension";
+			sourceTree = "<group>";
+		};
+		85E7786929BA2DDB007FB7ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85E7786A29BA2DDB007FB7ED /* _locales */,
+				85E7786C29BA2DDB007FB7ED /* images */,
+				85E7786E29BA2DDB007FB7ED /* manifest.json */,
+				85E7787029BA2DDB007FB7ED /* background.js */,
+				85E7787229BA2DDB007FB7ED /* content.js */,
+				85E7787429BA2DDB007FB7ED /* popup.html */,
+				85E7787629BA2DDB007FB7ED /* popup.css */,
+				85E7787829BA2DDB007FB7ED /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85E7784529BA2DDA007FB7ED /* QR Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E7788229BA2DDB007FB7ED /* Build configuration list for PBXNativeTarget "QR Code" */;
+			buildPhases = (
+				85E7784229BA2DDA007FB7ED /* Sources */,
+				85E7784329BA2DDA007FB7ED /* Frameworks */,
+				85E7784429BA2DDA007FB7ED /* Resources */,
+				85E7788129BA2DDB007FB7ED /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85E7786529BA2DDB007FB7ED /* PBXTargetDependency */,
+			);
+			name = "QR Code";
+			productName = "QR Code";
+			productReference = 85E7784629BA2DDA007FB7ED /* QR Code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85E7786129BA2DDB007FB7ED /* QR Code Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85E7787E29BA2DDB007FB7ED /* Build configuration list for PBXNativeTarget "QR Code Extension" */;
+			buildPhases = (
+				85E7785E29BA2DDB007FB7ED /* Sources */,
+				85E7785F29BA2DDB007FB7ED /* Frameworks */,
+				85E7786029BA2DDB007FB7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR Code Extension";
+			productName = "QR Code Extension";
+			productReference = 85E7786229BA2DDB007FB7ED /* QR Code Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85E7783E29BA2DDA007FB7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					85E7784529BA2DDA007FB7ED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					85E7786129BA2DDB007FB7ED = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 85E7784129BA2DDA007FB7ED /* Build configuration list for PBXProject "QR Code" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85E7783D29BA2DDA007FB7ED;
+			productRefGroup = 85E7784729BA2DDA007FB7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85E7784529BA2DDA007FB7ED /* QR Code */,
+				85E7786129BA2DDB007FB7ED /* QR Code Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85E7784429BA2DDA007FB7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E7785029BA2DDA007FB7ED /* Icon.png in Resources */,
+				85E7785929BA2DDA007FB7ED /* Main.storyboard in Resources */,
+				85E7785429BA2DDA007FB7ED /* Script.js in Resources */,
+				85E7784E29BA2DDA007FB7ED /* Main.html in Resources */,
+				85E7785B29BA2DDB007FB7ED /* Assets.xcassets in Resources */,
+				85E7785229BA2DDA007FB7ED /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E7786029BA2DDB007FB7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E7787129BA2DDB007FB7ED /* background.js in Resources */,
+				85E7787729BA2DDB007FB7ED /* popup.css in Resources */,
+				85E7787529BA2DDB007FB7ED /* popup.html in Resources */,
+				85E7786D29BA2DDB007FB7ED /* images in Resources */,
+				85E7786F29BA2DDB007FB7ED /* manifest.json in Resources */,
+				85E7786B29BA2DDB007FB7ED /* _locales in Resources */,
+				85E7787329BA2DDB007FB7ED /* content.js in Resources */,
+				85E7787929BA2DDB007FB7ED /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85E7784229BA2DDA007FB7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E7785629BA2DDA007FB7ED /* ViewController.swift in Sources */,
+				85E7784A29BA2DDA007FB7ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E7785E29BA2DDB007FB7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E7786829BA2DDB007FB7ED /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85E7786529BA2DDB007FB7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85E7786129BA2DDB007FB7ED /* QR Code Extension */;
+			targetProxy = 85E7786429BA2DDB007FB7ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85E7784C29BA2DDA007FB7ED /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E7784D29BA2DDA007FB7ED /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		85E7785729BA2DDA007FB7ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85E7785829BA2DDA007FB7ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85E7787C29BA2DDB007FB7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85E7787D29BA2DDB007FB7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85E7787F29BA2DDB007FB7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "QR Code Extension/QR_Code_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2H538H2H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QR Code Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QR Code Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niklas.QR-Code.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		85E7788029BA2DDB007FB7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "QR Code Extension/QR_Code_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2H538H2H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QR Code Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QR Code Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niklas.QR-Code.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		85E7788329BA2DDB007FB7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "QR Code/QR Code.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2H538H2H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "QR Code";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niklas.QR-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		85E7788429BA2DDB007FB7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "QR Code/QR Code.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2H538H2H4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "QR Code";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niklas.QR-Code";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85E7784129BA2DDA007FB7ED /* Build configuration list for PBXProject "QR Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E7787C29BA2DDB007FB7ED /* Debug */,
+				85E7787D29BA2DDB007FB7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E7787E29BA2DDB007FB7ED /* Build configuration list for PBXNativeTarget "QR Code Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E7787F29BA2DDB007FB7ED /* Debug */,
+				85E7788029BA2DDB007FB7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85E7788229BA2DDB007FB7ED /* Build configuration list for PBXNativeTarget "QR Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E7788329BA2DDB007FB7ED /* Debug */,
+				85E7788429BA2DDB007FB7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85E7783E29BA2DDA007FB7ED /* Project object */;
+}
