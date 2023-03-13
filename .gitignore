@@ -1,2 +1,4 @@
 # The following folders and files will not be uploaded:
 **/.DS_Store
+_build/
+_develop/

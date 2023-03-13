@@ -1,3 +1,10 @@
+//
+//  AppDelegate.swift
+//  QR Code
+//
+//  Created by Niklas Gabriel on 09.03.23.
+//
+
 function show(enabled, useSettingsInsteadOfPreferences) {
     if (useSettingsInsteadOfPreferences) {
         document.getElementsByClassName('state-on')[0].innerText = "QR Code’s extension is currently on. You can turn it off in the Extensions section of Safari Settings.";
