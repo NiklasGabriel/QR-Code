@@ -8,10 +8,10 @@
 ## General
 Safari Web Extension for QR Code generation.
 - A Safari App Extension, for generating an QR Code for the active Site.
-- A Safari App Extension, for generation QR Codes for Websites, Texts and WiFi
+- A Safari App Extension, for generation QR Codes for Websites, Texts and WiFi.
 
 ## Download
-For macOS (10.14+): [Download (ZIP)](https://github.com/NiklasGabriel/QR-Code/releases/latest/download/QR-Code.app.zip)
+For macOS (10.14+): [Download (ZIP)](https://github.com/NiklasGabriel/QR-Code/releases/latest/download/QR-Code.zip)
 
 
 ## Instalation
